@@ -23,7 +23,7 @@ searchForm.addEventListener('submit', e => {
     container.innerHTML = alertHTML2;
     return false;
   }
-  axios.get(`http://api.zippopotam.us/IN/${searchText}`).then(res=> {
+  axios.get(`https://api.zippopotam.us/IN/${searchText}`).then(res=> {
     console.log(res)
     if (res.status != 200) {
       return false;
