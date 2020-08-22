@@ -1,0 +1,11 @@
+@media (max-width:617px) {
+  .res-text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:400px) {
+  .c-small-none {
+    display: none;
+  }
+}
